@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+margin: auto;
+background-color: lightsalmon;
+
+}
+.nav{
+    margin: auto;
+    height: 50px;
+    width: 70%;
+    background-color: rgb(17, 15, 15);
+    color: whitesmoke;
+}
+.nav h2{
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 30px;
+    font-size: 26px;
+}
+.nav h3{
+    display: inline-block;
+    font-size: 23px;
+    margin-top: 2px;
+    text-transform: none;
+    font-weight: 500;
+    margin-left: 75px;
+}
+h3:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 450px;
+    margin: 30px auto;
+    border-radius: 9px;
+    background-color: brown;
+}
+h1{
+    text-align: center;
+    color: lightgreen;
+}
+#searchInput{
+    
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+    align-items: center;
+    padding: 10px;
+    
+   
+}
+#results{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 30px auto;
+    transition: background 0.5s,transform 0.5s;
+    background-color: lightsteelblue;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;  
+    border-radius: 10px;
+}
+#results:hover{
+    transform: translateY(-10px);
+}
+.recipe-card{
+    width: 17%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.recipe-card:hover{
+    background-color: rgb(168, 245, 190);
+    cursor: pointer;
+    
+}
+.recipe-card img{
+    width: 100%;
+    border-radius: 7px;
+
+}
+.recipe-card h3,
+h4{
+    margin: 10px 0;
+    text-align: center;
+    color: darkcyan;
+}
